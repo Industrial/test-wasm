@@ -37,8 +37,12 @@
           nodejs-19_x.pkgs.pnpm
           nodejs-19_x.pkgs.typescript
           openssl
+          ruby_3_1
+          rubyPackages_3_1.rubocop
+          bundix
         ];
       };
     }
   ));
 }
+

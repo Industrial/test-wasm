@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "web",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --experimental-wasi-unstable-preview1 src/index.js",
+    "pre-commit": "lint-staged",
+    "update-packages": "pnpx npm-check-updates -u && pnpm i"
+  },
+  "lint-staged": {
+    "*.{js,mjs,cjs,jsx,ts,tsx,json}": "pnpm lint"
+  },
+  "devDependencies": {
+    "eslint-config-code9": "^0.3.0",
+    "lint-staged": "^13.2.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ruby-3_2-wasm-wasi": "^1.0.1"
+  }
+}
