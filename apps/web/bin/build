@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+#export BUNDLE_GEMFILE=Gemfile
+#export BUNDLE_PATH=vendor/bundle
+
+wasmtime run \
+  --mapdir /usr::./head-wasm32-unknown-wasi-full/usr \
+  --mapdir /root::./ \
+  --env BUNDLE_GEMFILE=/root/Gemfile \
+  --env BUNDLE_PATH=/root/vendor/bundle \
+  head-wasm32-unknown-wasi-full/usr/local/bin/ruby -- /root/main.rb

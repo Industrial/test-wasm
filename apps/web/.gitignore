@@ -1,5 +1,4 @@
-node_modules
-
-/build
-/public/build
 .env
+head-wasm32-unknown-wasi-full/
+node_modules/
+vendor/
