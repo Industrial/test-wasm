@@ -22,42 +22,26 @@
       import nixpkgs {
         inherit system;
       });
+
+    haskellFlakeModule = import apps/web-haskell/flake.nix;
   in (eachDefaultSystem (
     system: let
       pkgs = nixpkgsFor.${system};
-
-      ruby = pkgs.ruby.overrideAttrs (attrs: {
-        version = "3.2.2";
-        src = pkgs.fetchurl {
-          url = "https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.gz";
-          sha256 = "sha256-lsV1WIcaZ0jeW8nydOk/S1qtBs2PN776Do2U57ikI7w=";
-        };
-        patches = [];
-        postPatch = "";
-      });
     in {
+      modules = [
+        haskellFlakeModule
+      ];
+
       devShell = pkgs.mkShell {
         nativeBuildInputs = with pkgs; [
           bashInteractive
         ];
         buildInputs = with pkgs; [
-          bundix
-          cargo
-          clang
-          cmake
           git
-          ninja
           nodejs-19_x
           nodejs-19_x.pkgs.eslint
           nodejs-19_x.pkgs.pnpm
           nodejs-19_x.pkgs.typescript
-          openssl
-          rubyPackages.rubocop
-          wasmtime
-          wasmer
-          wapm-cli
-        ] ++ [
-          ruby
         ];
       };
     }
