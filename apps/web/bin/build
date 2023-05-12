@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 
-#export BUNDLE_GEMFILE=Gemfile
-#export BUNDLE_PATH=vendor/bundle
+#vendor/wasm/wasi-vfs/bin/wasi-vfs \
+#  pack \
+#  vendor/wasm/head-wasm32-unknow-wasi-full/usr/local/bin/ruby \
+#  --mapdir /usr::usr/ \
+#  --mapdir /src::src/ \
+#  -o build/ruby_full.wasm
 
 wasmtime run \
-  --mapdir /usr::./head-wasm32-unknown-wasi-full/usr \
+  --mapdir /usr::./vendor/wasm/head-wasm32-unknown-wasi-full/usr \
   --mapdir /root::./ \
   --env BUNDLE_GEMFILE=/root/Gemfile \
   --env BUNDLE_PATH=/root/vendor/bundle \
-  head-wasm32-unknown-wasi-full/usr/local/bin/ruby -- /root/main.rb
+  vendor/wasm/head-wasm32-unknown-wasi-full/usr/local/bin/ruby -- /root/main.rb

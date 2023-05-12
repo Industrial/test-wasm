@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+rm -rf vendor/bundle/ruby/3.2.0+2
+
+bundle install
+
+cd vendor/bundle/ruby
+ln -s 3.2.0 3.2.0+2
+cd ../../..

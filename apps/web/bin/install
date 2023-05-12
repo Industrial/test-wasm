@@ -1,5 +1,45 @@
 #!/usr/bin/env bash
 
-curl -LO https://github.com/ruby/ruby.wasm/releases/download/2022-08-09-a/ruby-head-wasm32-unknown-wasi-full.tar.gz
-tar xfz ruby-head-wasm32-unknown-wasi-full.tar.gz
-rm ruby-head-wasm32-unknown-wasi-full.tar.gz
+mkdir -p .tmp
+mkdir -p vendor/wasm
+
+if [ ! -d .tmp/head-wasm32-unknown-wasi-full ]
+then
+  cd .tmp
+  curl -LO https://github.com/ruby/ruby.wasm/releases/download/2022-08-09-a/ruby-head-wasm32-unknown-wasi-full.tar.gz
+  tar zxvf ruby-head-wasm32-unknown-wasi-full.tar.gz
+  cd ..
+fi
+cp -R .tmp/head-wasm32-unknown-wasi-full vendor/wasm
+
+# curl -LO https://github.com/kateinoigakukun/wasi-vfs/releases/download/v0.1.0/wasi-vfs-cli-x86_64-unknown-linux-gnu.zip
+# unzip wasi-vfs-cli-x86_64-unknown-linux-gnu.zip
+# rm wasi-vfs-cli-x86_64-unknown-linux-gnu.zip
+# mkdir -p vendor/wasm/wasi-vfs/bin
+# mv wasi-vfs vendor/wasm/wasi-vfs/bin
+# chmod +x vendor/wasm/wasi-vfs/bin/*
+
+# if [ ! -d .tmp/wasi-sdk ]
+# then
+#   cd .tmp
+#   git clone --recursive https://github.com/WebAssembly/wasi-sdk.git
+#   cd wasi-sdk
+#   NINJA_FLAGS=-v make package
+#   cd ..
+# fi
+# #cp -R .tmp/wasi-sdk vendor/wasm
+
+#if [ ! -d .tmp/wasi-vfs ]
+#then
+#  cd .tmp
+#  git clone https://github.com/kateinoigakukun/wasi-vfs.git --recurse-submodules
+#  cd wasi-vfs
+#  export WASI_VERSION=14
+#  export WASI_VERSION_FULL=${WASI_VERSION}.0
+#
+#  curl -LO https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-${WASI_VERSION}/wasi-sdk-${WASI_VERSION_FULL}-linux.tar.gz
+#  tar xvf wasi-sdk-${WASI_VERSION_FULL}-linux.tar.gz
+#
+#  export WASI_SDK_PATH=$PWD/wasi-sdk-${WASI_VERSION_FULL}
+#  cargo build --target wasm32-unknown-unknown
+#fi

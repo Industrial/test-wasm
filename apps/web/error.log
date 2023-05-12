@@ -1,0 +1,2236 @@
+Cloning into 'wasi-vfs'...
+Submodule 'crates/wasi-libc-trampoline-bindgen/WASI' (https://github.com/WebAssembly/WASI.git) registered for path 'crates/wasi-libc-trampoline-bindgen/WASI'
+Cloning into '/home/tom/Code/code9/ruby/test-wasm/apps/web/.tmp/wasi-vfs/crates/wasi-libc-trampoline-bindgen/WASI'...
+Submodule path 'crates/wasi-libc-trampoline-bindgen/WASI': checked out '326dee685d352bc3845b999099f28b0a48734d46'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 11 55.7M   11 6639k    0     0  6950k      0  0:00:08 --:--:--  0:00:08 6950k 26 55.7M   26 14.7M    0     0  7749k      0  0:00:07  0:00:01  0:00:06 8512k 41 55.7M   41 23.1M    0     0  8018k      0  0:00:07  0:00:02  0:00:05 8528k 56 55.7M   56 31.4M    0     0  8147k      0  0:00:07  0:00:03  0:00:04 8528k 71 55.7M   71 39.7M    0     0  8223k      0  0:00:06  0:00:04  0:00:02 8528k 86 55.7M   86 48.1M    0     0  8280k      0  0:00:06  0:00:05  0:00:01 8534k100 55.7M  100 55.7M    0     0  8314k      0  0:00:06  0:00:06 --:--:-- 8539k
+wasi-sdk-14.0/
+wasi-sdk-14.0/share/
+wasi-sdk-14.0/share/cmake/
+wasi-sdk-14.0/share/cmake/wasi-sdk.cmake
+wasi-sdk-14.0/share/clang/
+wasi-sdk-14.0/share/clang/clang-format-diff.py
+wasi-sdk-14.0/share/clang/clang-format-bbedit.applescript
+wasi-sdk-14.0/share/clang/clang-tidy-diff.py
+wasi-sdk-14.0/share/clang/clang-format-sublime.py
+wasi-sdk-14.0/share/clang/clang-format.py
+wasi-sdk-14.0/share/clang/clang-format.el
+wasi-sdk-14.0/share/wasi-sysroot/
+wasi-sdk-14.0/share/wasi-sysroot/include/
+wasi-sdk-14.0/share/wasi-sysroot/include/strings.h
+wasi-sdk-14.0/share/wasi-sysroot/include/uchar.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_sigset_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_sockaddr_in6.h
+wasi-sdk-14.0/share/wasi-sysroot/include/values.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_timespec.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__debug
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cstdlib
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__tuple
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ratio
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/any
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/initializer_list
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/iomanip
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/errno.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ranges
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/piecewise_construct.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/as_const.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/in_place.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/__decay_copy.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/exchange.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/move.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/cmp.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/rel_ops.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/swap.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/forward.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/to_underlying.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/pair.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/declval.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__utility/integer_sequence.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__string
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/float.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/forward_list
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/limits.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/mutex
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cmath
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/scoped_allocator
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/typeinfo
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/reverse_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/distance.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/default_sentinel.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/advance.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/erase_if_container.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/iter_swap.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/size.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/insert_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/istream_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/prev.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/istreambuf_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/iterator_traits.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/wrap_iter.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/next.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/common_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/readable_traits.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/projected.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/ostream_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/iter_move.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/move_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/empty.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/front_insert_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/reverse_access.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/back_insert_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/access.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/data.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/incrementable_traits.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/concepts.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/ostreambuf_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__iterator/counted_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/new
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/shuffle.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/partial_sort_copy.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/sort_heap.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/all_of.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/pop_heap.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/partial_sort.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/is_heap.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/remove_copy_if.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/count_if.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/stable_partition.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/generate.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/fill.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/minmax_element.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/unique_copy.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/iter_swap.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/comp_ref_type.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/is_permutation.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/equal.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/adjacent_find.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/search_n.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/upper_bound.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/inplace_merge.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/replace_copy.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/swap_ranges.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/merge.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/max.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/reverse_copy.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/is_heap_until.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/reverse.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/rotate.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/move.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/partition_copy.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/partition_point.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/set_union.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/sort.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/unwrap_iter.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/half_positive.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/generate_n.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/set_symmetric_difference.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/for_each_n.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/mismatch.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/prev_permutation.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/is_sorted.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/min_element.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/is_partitioned.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/transform.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/copy_if.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/stable_sort.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/partition.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/remove.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/search.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/push_heap.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/lexicographical_compare.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/set_difference.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/find_if.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/remove_copy.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/rotate_copy.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/none_of.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/move_backward.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/next_permutation.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/min.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/sift_down.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/copy_n.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/find.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/copy_backward.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/find_if_not.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/find_end.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/shift_right.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/replace.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/fill_n.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/find_first_of.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/sample.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/nth_element.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/count.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/copy.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/clamp.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/max_element.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/minmax.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/any_of.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/lower_bound.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/binary_search.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/includes.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/for_each.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/make_heap.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/replace_if.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/comp.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/is_sorted_until.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/shift_left.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/remove_if.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/set_intersection.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/equal_range.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/replace_copy_if.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__algorithm/unique.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cfloat
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/functional
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/span
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cinttypes
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/string_view
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/stddef.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/codecvt
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/execution
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__mutex_base
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/fstream
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/tuple
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__format/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__format/format_error.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__format/format_parse_context.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/barrier
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__nullptr
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/csetjmp
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/format
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/ibm/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/ibm/locale_mgmt_zos.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/ibm/limits.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/ibm/nanosleep.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/ibm/gettod_zos.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/ibm/support.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/ibm/xlocale.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/ibm/locale_mgmt_aix.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/android/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/android/locale_bionic.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/solaris/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/solaris/floatingpoint.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/solaris/wchar.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/solaris/xlocale.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/xlocale/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/xlocale/__strtonum_fallback.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/xlocale/__posix_l_fallback.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/xlocale/__nop_locale_mgmt.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/win32/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/win32/limits_msvc_win32.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/win32/locale_win32.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/nuttx/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/nuttx/xlocale.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/musl/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/musl/xlocale.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/openbsd/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/openbsd/xlocale.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/fuchsia/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/fuchsia/xlocale.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/newlib/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__support/newlib/xlocale.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/fenv.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__function_like.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cstdarg
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/iosfwd
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cerrno
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/sstream
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/map
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/stdio.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cwchar
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cfenv
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/streambuf
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/filesystem
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/string.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/iostream
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/stdint.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/thread
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/enable_borrowed_range.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/subrange.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/enable_view.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/size.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/ref_view.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/transform_view.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/non_propagating_cache.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/empty.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/all.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/drop_view.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/dangling.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/access.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/data.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/common_view.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/concepts.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/empty_view.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/copyable_box.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__ranges/view_interface.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/unordered_set
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/simd
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/coroutine
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/forward_list
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/functional
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/map
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/memory_resource
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/filesystem
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/unordered_set
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/iterator
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/vector
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/list
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/set
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/deque
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/string
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/utility
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/propagate_const
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/type_traits
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/algorithm
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/regex
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/__memory
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/unordered_map
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/experimental/__config
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/tgmath.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/system_error
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cxxabi.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/module.modulemap
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/limits
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/clocale
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/complex.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__threading_support
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/memory
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/wchar.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/exception
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/compare
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cwctype
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/iterator
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/latch
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__availability
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__tree
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ios
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/stdlib.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__std_stream
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ctgmath
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/locale.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__bit_reference
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__bsd_locale_fallbacks.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__cxxabi_config.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/vector
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/bit
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/queue
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/list
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/set
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/deque
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cstddef
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/semaphore
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/array
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/string
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__random/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__random/uniform_int_distribution.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/bitset
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__hash_table
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/csignal
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/typeindex
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/complex
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ccomplex
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__split_buffer
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/future
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional_base
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/utility
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/locale
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/istream
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cctype
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/charconv
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/stdexcept
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/random
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__undef_macros
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__bits
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/chrono
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/wctype.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/type_traits
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/strstream
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/shared_mutex
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__libcpp_version
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cstdint
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/algorithm
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__config_site
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ext/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ext/__hash
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ext/hash_map
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ext/hash_set
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/regex
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ostream
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__variant/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__variant/monostate.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cassert
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/numbers
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__bsd_locale_defaults.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/version
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/inttypes.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ctime
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/allocator_traits.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/shared_ptr.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/allocator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/raw_storage_iterator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/allocator_arg_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/addressof.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/temporary_buffer.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/auto_ptr.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/pointer_traits.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/unique_ptr.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/compressed_pair.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/allocation_guard.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/uses_allocator.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/uninitialized_algorithms.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/construct_at.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__memory/pointer_safety.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cstring
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cstdbool
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ctype.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/optional
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/invoke.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/function.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/identity.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/default_searcher.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/pointer_to_unary_function.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/binder1st.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/unary_negate.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/ranges_operations.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/binder2nd.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/unary_function.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/mem_fun_ref.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/bind.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/bind_front.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/hash.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/weak_result_type.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/operations.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/mem_fn.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/binary_negate.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/unwrap_ref.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/reference_wrapper.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/perfect_forward.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/is_transparent.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/not_fn.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/binary_function.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__functional/pointer_to_binary_function.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/numeric
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/atomic
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/valarray
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/math.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__node_handle
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__errc
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/setjmp.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/stdbool.h
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/condition_variable
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/cstdio
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/unordered_map
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/concepts
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/ciso646
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__locale
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/__config
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/climits
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/stack
+wasi-sdk-14.0/share/wasi-sysroot/include/c++/v1/variant
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_nfds_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_timeval.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_uid_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/errno.h
+wasi-sdk-14.0/share/wasi-sysroot/include/signal.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_mode_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/syscall.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__fd_set.h
+wasi-sdk-14.0/share/wasi-sysroot/include/float.h
+wasi-sdk-14.0/share/wasi-sysroot/include/stdio_ext.h
+wasi-sdk-14.0/share/wasi-sysroot/include/limits.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__errno.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/mman.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/signal.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/float.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/limits.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/fcntl.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/alltypes.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/fenv.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/stat.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/stdint.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/posix.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/hwcap.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/ioctl_fix.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/dirent.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/ipcstat.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/reg.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/poll.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/resource.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/socket.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/io.h
+wasi-sdk-14.0/share/wasi-sysroot/include/bits/ioctl.h
+wasi-sdk-14.0/share/wasi-sysroot/include/getopt.h
+wasi-sdk-14.0/share/wasi-sysroot/include/stdc-predef.h
+wasi-sdk-14.0/share/wasi-sysroot/include/memory.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_inttypes.h
+wasi-sdk-14.0/share/wasi-sysroot/include/netinet/
+wasi-sdk-14.0/share/wasi-sysroot/include/netinet/in.h
+wasi-sdk-14.0/share/wasi-sysroot/include/netinet/igmp.h
+wasi-sdk-14.0/share/wasi-sysroot/include/netinet/ip6.h
+wasi-sdk-14.0/share/wasi-sysroot/include/netinet/tcp.h
+wasi-sdk-14.0/share/wasi-sysroot/include/netinet/icmp6.h
+wasi-sdk-14.0/share/wasi-sysroot/include/netinet/udp.h
+wasi-sdk-14.0/share/wasi-sysroot/include/netinet/in_systm.h
+wasi-sdk-14.0/share/wasi-sysroot/include/netinet/ip_icmp.h
+wasi-sdk-14.0/share/wasi-sysroot/include/netinet/ip.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_ssize_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/fcntl.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__functions_malloc.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_stat.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_time_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__function___isatty.h
+wasi-sdk-14.0/share/wasi-sysroot/include/netpacket/
+wasi-sdk-14.0/share/wasi-sysroot/include/netpacket/packet.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_msghdr.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/mman.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/sysinfo.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/errno.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/signal.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/syscall.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/random.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/timeb.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/fcntl.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/utsname.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/uio.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/stat.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/timex.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/eventfd.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/ttydefaults.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/dir.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/param.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/stropts.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/un.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/reg.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/select.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/poll.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/types.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/time.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/resource.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/times.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/socket.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/file.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sys/ioctl.h
+wasi-sdk-14.0/share/wasi-sysroot/include/utime.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_sys_resource.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__seek.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__errno_values.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_netinet_in.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_clockid_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_poll.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_dirent.h
+wasi-sdk-14.0/share/wasi-sysroot/include/regex.h
+wasi-sdk-14.0/share/wasi-sysroot/include/net/
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_clock_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/wasi/
+wasi-sdk-14.0/share/wasi-sysroot/include/wasi/api.h
+wasi-sdk-14.0/share/wasi-sysroot/include/wasi/libc.h
+wasi-sdk-14.0/share/wasi-sysroot/include/wasi/libc-find-relpath.h
+wasi-sdk-14.0/share/wasi-sysroot/include/wasi/libc-nocwd.h
+wasi-sdk-14.0/share/wasi-sysroot/include/wasi/libc-environ.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_suseconds_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/stdnoreturn.h
+wasi-sdk-14.0/share/wasi-sysroot/include/fenv.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_sockaddr.h
+wasi-sdk-14.0/share/wasi-sysroot/include/fmtmsg.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_unistd.h
+wasi-sdk-14.0/share/wasi-sysroot/include/assert.h
+wasi-sdk-14.0/share/wasi-sysroot/include/stdio.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_blksize_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/string.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_iovec.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_tm.h
+wasi-sdk-14.0/share/wasi-sysroot/include/stdint.h
+wasi-sdk-14.0/share/wasi-sysroot/include/tar.h
+wasi-sdk-14.0/share/wasi-sysroot/include/ar.h
+wasi-sdk-14.0/share/wasi-sysroot/include/tgmath.h
+wasi-sdk-14.0/share/wasi-sysroot/include/nl_types.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_ino_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/iso646.h
+wasi-sdk-14.0/share/wasi-sysroot/include/monetary.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_dirent.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sysexits.h
+wasi-sdk-14.0/share/wasi-sysroot/include/complex.h
+wasi-sdk-14.0/share/wasi-sysroot/include/mqueue.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_sys_ioctl.h
+wasi-sdk-14.0/share/wasi-sysroot/include/wchar.h
+wasi-sdk-14.0/share/wasi-sysroot/include/glob.h
+wasi-sdk-14.0/share/wasi-sysroot/include/stdlib.h
+wasi-sdk-14.0/share/wasi-sysroot/include/locale.h
+wasi-sdk-14.0/share/wasi-sysroot/include/dirent.h
+wasi-sdk-14.0/share/wasi-sysroot/include/search.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_rusage.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_fd_set.h
+wasi-sdk-14.0/share/wasi-sysroot/include/malloc.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_blkcnt_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_in6_addr.h
+wasi-sdk-14.0/share/wasi-sysroot/include/stdalign.h
+wasi-sdk-14.0/share/wasi-sysroot/include/crypt.h
+wasi-sdk-14.0/share/wasi-sysroot/include/byteswap.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__macro_FD_SETSIZE.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_DIR.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__mode_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/stropts.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_sockaddr_storage.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_fcntl.h
+wasi-sdk-14.0/share/wasi-sysroot/include/err.h
+wasi-sdk-14.0/share/wasi-sysroot/include/scsi/
+wasi-sdk-14.0/share/wasi-sysroot/include/__macro_PAGESIZE.h
+wasi-sdk-14.0/share/wasi-sysroot/include/unistd.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_socklen_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_off_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_time.h
+wasi-sdk-14.0/share/wasi-sysroot/include/poll.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_tms.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_in_addr_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/ifaddrs.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_dev_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/time.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_sa_family_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/threads.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_in_port_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_sys_stat.h
+wasi-sdk-14.0/share/wasi-sysroot/include/wctype.h
+wasi-sdk-14.0/share/wasi-sysroot/include/endian.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_sys_socket.h
+wasi-sdk-14.0/share/wasi-sysroot/include/libgen.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_pollfd.h
+wasi-sdk-14.0/share/wasi-sysroot/include/inttypes.h
+wasi-sdk-14.0/share/wasi-sysroot/include/ftw.h
+wasi-sdk-14.0/share/wasi-sysroot/include/langinfo.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_stdlib.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_in_addr.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_gid_t.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__functions_memcpy.h
+wasi-sdk-14.0/share/wasi-sysroot/include/ctype.h
+wasi-sdk-14.0/share/wasi-sysroot/include/semaphore.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__header_string.h
+wasi-sdk-14.0/share/wasi-sysroot/include/math.h
+wasi-sdk-14.0/share/wasi-sysroot/include/alloca.h
+wasi-sdk-14.0/share/wasi-sysroot/include/features.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_sockaddr_un.h
+wasi-sdk-14.0/share/wasi-sysroot/include/stdbool.h
+wasi-sdk-14.0/share/wasi-sysroot/include/arpa/
+wasi-sdk-14.0/share/wasi-sysroot/include/arpa/telnet.h
+wasi-sdk-14.0/share/wasi-sysroot/include/arpa/tftp.h
+wasi-sdk-14.0/share/wasi-sysroot/include/arpa/inet.h
+wasi-sdk-14.0/share/wasi-sysroot/include/arpa/nameser.h
+wasi-sdk-14.0/share/wasi-sysroot/include/arpa/ftp.h
+wasi-sdk-14.0/share/wasi-sysroot/include/arpa/nameser_compat.h
+wasi-sdk-14.0/share/wasi-sysroot/include/iconv.h
+wasi-sdk-14.0/share/wasi-sysroot/include/fnmatch.h
+wasi-sdk-14.0/share/wasi-sysroot/include/cpio.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__struct_sockaddr_in.h
+wasi-sdk-14.0/share/wasi-sysroot/include/sched.h
+wasi-sdk-14.0/share/wasi-sysroot/include/__typedef_nlink_t.h
+wasi-sdk-14.0/share/wasi-sysroot/share/
+wasi-sdk-14.0/share/wasi-sysroot/share/wasm32-wasi/
+wasi-sdk-14.0/share/wasi-sysroot/share/wasm32-wasi/predefined-macros.txt
+wasi-sdk-14.0/share/wasi-sysroot/share/wasm32-wasi/undefined-symbols.txt
+wasi-sdk-14.0/share/wasi-sysroot/share/wasm32-wasi/include-all.c
+wasi-sdk-14.0/share/wasi-sysroot/share/wasm32-wasi/defined-symbols.txt
+wasi-sdk-14.0/share/wasi-sysroot/lib/
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libxnet.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libwasi-emulated-signal.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libc.imports
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libc++.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libc-printscan-no-floating-point.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libcrypt.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/crt1-command.o
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libpthread.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libc-printscan-long-double.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libutil.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libdl.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libm.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libresolv.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libc.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/librt.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libwasi-emulated-mman.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/crt1-reactor.o
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libwasi-emulated-getpid.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libwasi-emulated-process-clocks.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/libc++abi.a
+wasi-sdk-14.0/share/wasi-sysroot/lib/wasm32-wasi/crt1.o
+wasi-sdk-14.0/share/misc/
+wasi-sdk-14.0/share/misc/config.sub
+wasi-sdk-14.0/share/misc/config.guess
+wasi-sdk-14.0/lib/
+wasi-sdk-14.0/lib/clang/
+wasi-sdk-14.0/lib/clang/13.0.0/
+wasi-sdk-14.0/lib/clang/13.0.0/include/
+wasi-sdk-14.0/lib/clang/13.0.0/include/htmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vlvp2intersectintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/hresetintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/cldemoteintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/arm_cde.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/rdseedintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/serializeintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_cuda_complex_builtins.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/arm_acle.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/shaintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512erintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/fxsrintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/x86intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/fma4intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/builtins.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/nmmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vp2intersectintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vlvbmi2intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/wasm_simd128.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512ifmaintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/float.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/limits.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vlcdintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/arm_sve.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512ifmavlintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/tmmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/cpuid.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/popcntintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/fmaintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vnniintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/smmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/mmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_cuda_runtime_wrapper.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/ia32intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/keylockerintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/xtestintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/mm_malloc.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_hip_cmath.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vlbwintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_cuda_intrinsics.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/rtmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/vpclmulqdqintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/ppc_wrappers/
+wasi-sdk-14.0/lib/clang/13.0.0/include/ppc_wrappers/tmmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/ppc_wrappers/smmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/ppc_wrappers/mmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/ppc_wrappers/mm_malloc.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/ppc_wrappers/emmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/ppc_wrappers/pmmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/ppc_wrappers/xmmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/stddef.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/emmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/opencl-c.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512fintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/cet.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/ptwriteintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vbmi2intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/hexagon_types.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/xsaveintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__stddef_max_align_t.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/hexagon_circ_brev_intrinsics.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/stdnoreturn.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vbmiintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512bwintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vlbf16intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/arm_mve.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/hvx_hexagon_protos.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/uintrintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_cuda_device_functions.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__wmmintrin_pclmul.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/clflushoptintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/xopintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_cuda_builtin_vars.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/vaesintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vlintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/arm_bf16.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/cuda_wrappers/
+wasi-sdk-14.0/lib/clang/13.0.0/include/cuda_wrappers/new
+wasi-sdk-14.0/lib/clang/13.0.0/include/cuda_wrappers/complex
+wasi-sdk-14.0/lib/clang/13.0.0/include/cuda_wrappers/algorithm
+wasi-sdk-14.0/lib/clang/13.0.0/include/stdint.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/tbmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512pfintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/mwaitxintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/amxintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/tgmath.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/unwind.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/pconfigintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/module.modulemap
+wasi-sdk-14.0/lib/clang/13.0.0/include/cetintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/iso646.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avxintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/htmxlintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/enqcmdintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/prfchwintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/clzerointrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/msa.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/x86gprintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/waitpkgintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/armintr.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/bmiintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_hip_runtime_wrapper.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/sgxintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/gfniintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/stdatomic.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/pmmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_cuda_math.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_hip_libdevice_declares.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/lzcntintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/varargs.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/pkuintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/arm_cmse.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/stdalign.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/adxintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/arm_fp16.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/movdirintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/vadefs.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512bf16intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/xsavecintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/immintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vlbitalgintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vpopcntdqintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/bmi2intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/xsavesintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/tsxldtrkintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/altivec.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vldqintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vbmivlintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512cdintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/opencl-c-base.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_cuda_cmath.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_cuda_math_forward_declares.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_hip_math.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/mm3dnow.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/clwbintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avxvnniintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/wbnoinvdintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/vecintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/xsaveoptintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/ammintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/inttypes.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512dqintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/s390intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512bitalgintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx2intrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/f16cintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/wmmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__wmmintrin_aes.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/xmmintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/stdbool.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/__clang_cuda_libdevice_declares.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/stdarg.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/arm64intr.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/hexagon_protos.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/lwpintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/invpcidintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vlvnniintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/riscv_vector.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/avx512vpopcntdqvlintrin.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/openmp_wrappers/
+wasi-sdk-14.0/lib/clang/13.0.0/include/openmp_wrappers/cmath
+wasi-sdk-14.0/lib/clang/13.0.0/include/openmp_wrappers/complex_cmath.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/openmp_wrappers/new
+wasi-sdk-14.0/lib/clang/13.0.0/include/openmp_wrappers/__clang_openmp_device_functions.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/openmp_wrappers/complex.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/openmp_wrappers/complex
+wasi-sdk-14.0/lib/clang/13.0.0/include/openmp_wrappers/math.h
+wasi-sdk-14.0/lib/clang/13.0.0/include/arm_neon.h
+wasi-sdk-14.0/lib/clang/13.0.0/lib/
+wasi-sdk-14.0/lib/clang/13.0.0/lib/wasi/
+wasi-sdk-14.0/lib/clang/13.0.0/lib/wasi/libclang_rt.builtins-wasm32.a
+wasi-sdk-14.0/bin/
+wasi-sdk-14.0/bin/c++filt
+wasi-sdk-14.0/bin/lld-link
+wasi-sdk-14.0/bin/llvm-ranlib
+wasi-sdk-14.0/bin/strip
+wasi-sdk-14.0/bin/clang-format
+wasi-sdk-14.0/bin/size
+wasi-sdk-14.0/bin/llvm-objcopy
+wasi-sdk-14.0/bin/clang
+wasi-sdk-14.0/bin/ld64.lld
+wasi-sdk-14.0/bin/llvm-objdump
+wasi-sdk-14.0/bin/objdump
+wasi-sdk-14.0/bin/ar
+wasi-sdk-14.0/bin/ld64.lld.darwinold
+wasi-sdk-14.0/bin/clang-cl
+wasi-sdk-14.0/bin/clang-tidy
+wasi-sdk-14.0/bin/llvm-ar
+wasi-sdk-14.0/bin/nm
+wasi-sdk-14.0/bin/llvm-strings
+wasi-sdk-14.0/bin/ld.lld
+wasi-sdk-14.0/bin/llvm-dwarfdump
+wasi-sdk-14.0/bin/run-clang-tidy
+wasi-sdk-14.0/bin/llvm-cxxfilt
+wasi-sdk-14.0/bin/objcopy
+wasi-sdk-14.0/bin/llvm-nm
+wasi-sdk-14.0/bin/strings
+wasi-sdk-14.0/bin/llvm-strip
+wasi-sdk-14.0/bin/lld
+wasi-sdk-14.0/bin/git-clang-format
+wasi-sdk-14.0/bin/llvm-size
+wasi-sdk-14.0/bin/wasm-ld
+wasi-sdk-14.0/bin/clang++
+wasi-sdk-14.0/bin/clang-apply-replacements
+wasi-sdk-14.0/bin/ld64.lld.darwinnew
+wasi-sdk-14.0/bin/clang-13
+wasi-sdk-14.0/bin/ranlib
+wasi-sdk-14.0/bin/clang-cpp
+   Compiling cc v1.0.73
+   Compiling wasi v0.11.0+wasi-snapshot-preview1
+error[E0463]: can't find crate for `core`
+  |
+  = note: the `wasm32-unknown-unknown` target may not be installed
+  = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `compiler_builtins`
+
+error[E0463]: can't find crate for `std`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:410:1
+    |
+410 | extern crate std;
+    | ^^^^^^^^^^^^^^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+ --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:5:5
+  |
+5 | use core::fmt;
+  |     ^^^^ can't find crate
+  |
+  = note: the `wasm32-unknown-unknown` target may not be installed
+  = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+ --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:6:5
+  |
+6 | use core::mem::MaybeUninit;
+  |     ^^^^ can't find crate
+  |
+  = note: the `wasm32-unknown-unknown` target may not be installed
+  = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error: cannot find attribute `derive` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1202:3
+     |
+1202 | #[derive(Copy, Clone)]
+     |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1197:3
+     |
+1197 | #[derive(Copy, Clone)]
+     |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1191:3
+     |
+1191 | #[derive(Copy, Clone, Debug)]
+     |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1158:3
+     |
+1158 | #[derive(Copy, Clone, Hash, Eq, PartialEq, Ord, PartialOrd)]
+     |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:864:3
+    |
+864 | #[derive(Copy, Clone, Hash, Eq, PartialEq, Ord, PartialOrd)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:854:3
+    |
+854 | #[derive(Copy, Clone)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:847:3
+    |
+847 | #[derive(Copy, Clone)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:840:3
+    |
+840 | #[derive(Copy, Clone)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:834:3
+    |
+834 | #[derive(Copy, Clone, Debug)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:821:3
+    |
+821 | #[derive(Copy, Clone, Debug)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:800:3
+    |
+800 | #[derive(Copy, Clone, Debug)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:792:3
+    |
+792 | #[derive(Copy, Clone, Debug)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:735:3
+    |
+735 | #[derive(Copy, Clone, Hash, Eq, PartialEq, Ord, PartialOrd)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:714:3
+    |
+714 | #[derive(Copy, Clone, Debug)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:675:3
+    |
+675 | #[derive(Copy, Clone, Debug)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:616:3
+    |
+616 | #[derive(Copy, Clone, Hash, Eq, PartialEq, Ord, PartialOrd)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:604:3
+    |
+604 | #[derive(Copy, Clone, Debug)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:553:3
+    |
+553 | #[derive(Copy, Clone, Hash, Eq, PartialEq, Ord, PartialOrd)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:509:3
+    |
+509 | #[derive(Copy, Clone, Hash, Eq, PartialEq, Ord, PartialOrd)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:498:3
+    |
+498 | #[derive(Copy, Clone, Debug)]
+    |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:490:3
+    |
+490 | #[derive(Copy, Clone, Debug)]
+    |   ^^^^^^
+
+error: cannot find macro `write` in this scope
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:405:9
+    |
+405 |         write!(f, "{} (error {})", self.name(), self.0)
+    |         ^^^^^
+
+error: cannot find attribute `derive` in this scope
+  --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:68:3
+   |
+68 | #[derive(Copy, Clone, Hash, Eq, PartialEq, Ord, PartialOrd)]
+   |   ^^^^^^
+
+error: cannot find attribute `derive` in this scope
+  --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:11:3
+   |
+11 | #[derive(Copy, Clone, Hash, Eq, PartialEq, Ord, PartialOrd)]
+   |   ^^^^^^
+
+error[E0463]: can't find crate for `core`
+  --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:36:27
+   |
+36 |             _ => unsafe { core::hint::unreachable_unchecked() },
+   |                           ^^^^ can't find crate
+   |
+   = note: the `wasm32-unknown-unknown` target may not be installed
+   = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+  --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:53:27
+   |
+53 |             _ => unsafe { core::hint::unreachable_unchecked() },
+   |                           ^^^^ can't find crate
+   |
+   = note: the `wasm32-unknown-unknown` target may not be installed
+   = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:308:27
+    |
+308 |             _ => unsafe { core::hint::unreachable_unchecked() },
+    |                           ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:390:27
+    |
+390 |             _ => unsafe { core::hint::unreachable_unchecked() },
+    |                           ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:527:27
+    |
+527 |             _ => unsafe { core::hint::unreachable_unchecked() },
+    |                           ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:535:27
+    |
+535 |             _ => unsafe { core::hint::unreachable_unchecked() },
+    |                           ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:586:27
+    |
+586 |             _ => unsafe { core::hint::unreachable_unchecked() },
+    |                           ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:590:599
+    |
+590 | ...he file refers to a symbolic link inode.",_ => unsafe { core::hint::unreachable_unchecked() },}
+    |                                                            ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:643:27
+    |
+643 |             _ => unsafe { core::hint::unreachable_unchecked() },
+    |                           ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:647:597
+    |
+647 | ...a once and then not reuse it thereafter.",_ => unsafe { core::hint::unreachable_unchecked() },}
+    |                                                            ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:756:27
+    |
+756 |             _ => unsafe { core::hint::unreachable_unchecked() },
+    |                           ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:773:27
+    |
+773 |             _ => unsafe { core::hint::unreachable_unchecked() },
+    |                           ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+   --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:997:27
+    |
+997 |             _ => unsafe { core::hint::unreachable_unchecked() },
+    |                           ^^^^ can't find crate
+    |
+    = note: the `wasm32-unknown-unknown` target may not be installed
+    = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1126:27
+     |
+1126 |             _ => unsafe { core::hint::unreachable_unchecked() },
+     |                           ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1170:27
+     |
+1170 |             _ => unsafe { core::hint::unreachable_unchecked() },
+     |                           ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1176:27
+     |
+1176 |             _ => unsafe { core::hint::unreachable_unchecked() },
+     |                           ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1232:13
+     |
+1232 |             core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size),
+     |             ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1233:13
+     |
+1233 |             core::ptr::read(rp1.as_mut_ptr() as i32 as *const Size),
+     |             ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1263:13
+     |
+1263 |             core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size),
+     |             ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1264:13
+     |
+1264 |             core::ptr::read(rp1.as_mut_ptr() as i32 as *const Size),
+     |             ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1286:17
+     |
+1286 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Timestamp)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1310:17
+     |
+1310 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Timestamp)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1382:17
+     |
+1382 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Fdstat)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1432:17
+     |
+1432 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Filestat)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1498:17
+     |
+1498 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1512:17
+     |
+1512 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Prestat)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1551:17
+     |
+1551 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1575:17
+     |
+1575 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1613:17
+     |
+1613 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1658:17
+     |
+1658 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Filesize)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1683:17
+     |
+1683 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Filesize)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1703:17
+     |
+1703 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1747:17
+     |
+1747 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Filestat)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1863:17
+     |
+1863 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Fd)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1895:17
+     |
+1895 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2006:17
+     |
+2006 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2079:17
+     |
+2079 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Fd)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2113:13
+     |
+2113 |             core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size),
+     |             ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2114:13
+     |
+2114 |             core::ptr::read(rp1.as_mut_ptr() as i32 as *const Roflags),
+     |             ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0463]: can't find crate for `core`
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2146:17
+     |
+2146 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |                 ^^^^ can't find crate
+     |
+     = note: the `wasm32-unknown-unknown` target may not be installed
+     = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1211:66
+     |
+1211 | pub unsafe fn args_get(argv: *mut *mut u8, argv_buf: *mut u8) -> Result<(), Errno> {
+     |                                                                  ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1225:35
+     |
+1225 | pub unsafe fn args_sizes_get() -> Result<(Size, Size), Errno> {
+     |                                   ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1242:75
+     |
+1242 | pub unsafe fn environ_get(environ: *mut *mut u8, environ_buf: *mut u8) -> Result<(), Errno> {
+     |                                                                           ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1256:38
+     |
+1256 | pub unsafe fn environ_sizes_get() -> Result<(Size, Size), Errno> {
+     |                                      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1282:45
+     |
+1282 | pub unsafe fn clock_res_get(id: Clockid) -> Result<Timestamp, Errno> {
+     |                                             ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1302:68
+     |
+1302 | pub unsafe fn clock_time_get(id: Clockid, precision: Timestamp) -> Result<Timestamp, Errno> {
+     |                                                                    ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1328:6
+     |
+1328 | ) -> Result<(), Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1344:71
+     |
+1344 | pub unsafe fn fd_allocate(fd: Fd, offset: Filesize, len: Filesize) -> Result<(), Errno> {
+     |                                                                       ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1354:35
+     |
+1354 | pub unsafe fn fd_close(fd: Fd) -> Result<(), Errno> {
+     |                                   ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1364:38
+     |
+1364 | pub unsafe fn fd_datasync(fd: Fd) -> Result<(), Errno> {
+     |                                      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1378:40
+     |
+1378 | pub unsafe fn fd_fdstat_get(fd: Fd) -> Result<Fdstat, Errno> {
+     |                                        ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1393:62
+     |
+1393 | pub unsafe fn fd_fdstat_set_flags(fd: Fd, flags: Fdflags) -> Result<(), Errno> {
+     |                                                              ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1411:6
+     |
+1411 | ) -> Result<(), Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1428:42
+     |
+1428 | pub unsafe fn fd_filestat_get(fd: Fd) -> Result<Filestat, Errno> {
+     |                                          ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1443:63
+     |
+1443 | pub unsafe fn fd_filestat_set_size(fd: Fd, size: Filesize) -> Result<(), Errno> {
+     |                                                               ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1464:6
+     |
+1464 | ) -> Result<(), Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1488:75
+     |
+1488 | pub unsafe fn fd_pread(fd: Fd, iovs: IovecArray<'_>, offset: Filesize) -> Result<Size, Errno> {
+     |                                                                           ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1508:41
+     |
+1508 | pub unsafe fn fd_prestat_get(fd: Fd) -> Result<Prestat, Errno> {
+     |                                         ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1522:77
+     |
+1522 | pub unsafe fn fd_prestat_dir_name(fd: Fd, path: *mut u8, path_len: Size) -> Result<(), Errno> {
+     |                                                                             ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1541:77
+     |
+1541 | pub unsafe fn fd_pwrite(fd: Fd, iovs: CiovecArray<'_>, offset: Filesize) -> Result<Size, Errno> {
+     |                                                                             ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1566:56
+     |
+1566 | pub unsafe fn fd_read(fd: Fd, iovs: IovecArray<'_>) -> Result<Size, Errno> {
+     |                                                        ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1603:6
+     |
+1603 | ) -> Result<Size, Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1630:46
+     |
+1630 | pub unsafe fn fd_renumber(fd: Fd, to: Fd) -> Result<(), Errno> {
+     |                                              ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1649:69
+     |
+1649 | pub unsafe fn fd_seek(fd: Fd, offset: Filedelta, whence: Whence) -> Result<Filesize, Errno> {
+     |                                                                     ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1665:34
+     |
+1665 | pub unsafe fn fd_sync(fd: Fd) -> Result<(), Errno> {
+     |                                  ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1679:34
+     |
+1679 | pub unsafe fn fd_tell(fd: Fd) -> Result<Filesize, Errno> {
+     |                                  ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1694:58
+     |
+1694 | pub unsafe fn fd_write(fd: Fd, iovs: CiovecArray<'_>) -> Result<Size, Errno> {
+     |                                                          ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1714:60
+     |
+1714 | pub unsafe fn path_create_directory(fd: Fd, path: &str) -> Result<(), Errno> {
+     |                                                            ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1737:76
+     |
+1737 | pub unsafe fn path_filestat_get(fd: Fd, flags: Lookupflags, path: &str) -> Result<Filestat, Errno> {
+     |                                                                            ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1769:6
+     |
+1769 | ) -> Result<(), Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1800:6
+     |
+1800 | ) -> Result<(), Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1849:6
+     |
+1849 | ) -> Result<Fd, Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1884:6
+     |
+1884 | ) -> Result<Size, Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1907:60
+     |
+1907 | pub unsafe fn path_remove_directory(fd: Fd, path: &str) -> Result<(), Errno> {
+     |                                                            ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1927:82
+     |
+1927 | pub unsafe fn path_rename(fd: Fd, old_path: &str, new_fd: Fd, new_path: &str) -> Result<(), Errno> {
+     |                                                                                  ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1949:71
+     |
+1949 | pub unsafe fn path_symlink(old_path: &str, fd: Fd, new_path: &str) -> Result<(), Errno> {
+     |                                                                       ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1970:55
+     |
+1970 | pub unsafe fn path_unlink_file(fd: Fd, path: &str) -> Result<(), Errno> {
+     |                                                       ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1997:6
+     |
+1997 | ) -> Result<Size, Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2028:42
+     |
+2028 | pub unsafe fn proc_raise(sig: Signal) -> Result<(), Errno> {
+     |                                          ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2038:32
+     |
+2038 | pub unsafe fn sched_yield() -> Result<(), Errno> {
+     |                                ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2056:58
+     |
+2056 | pub unsafe fn random_get(buf: *mut u8, buf_len: Size) -> Result<(), Errno> {
+     |                                                          ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2075:54
+     |
+2075 | pub unsafe fn sock_accept(fd: Fd, flags: Fdflags) -> Result<Fd, Errno> {
+     |                                                      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2100:6
+     |
+2100 | ) -> Result<(Size, Roflags), Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2136:6
+     |
+2136 | ) -> Result<Size, Errno> {
+     |      ^^^^^^ not found in this scope
+
+error[E0412]: cannot find type `Result` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2157:54
+     |
+2157 | pub unsafe fn sock_shutdown(fd: Fd, how: Sdflags) -> Result<(), Errno> {
+     |                                                      ^^^^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1214:14
+     |
+1214 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1215:14
+     |
+1215 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1231:14
+     |
+1231 |         0 => Ok((
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1235:14
+     |
+1235 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1245:14
+     |
+1245 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1246:14
+     |
+1246 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1262:14
+     |
+1262 |         0 => Ok((
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1266:14
+     |
+1266 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1286:14
+     |
+1286 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Timestamp)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1287:14
+     |
+1287 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1310:14
+     |
+1310 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Timestamp)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1311:14
+     |
+1311 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1332:14
+     |
+1332 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1333:14
+     |
+1333 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1347:14
+     |
+1347 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1348:14
+     |
+1348 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1357:14
+     |
+1357 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1358:14
+     |
+1358 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1367:14
+     |
+1367 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1368:14
+     |
+1368 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1382:14
+     |
+1382 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Fdstat)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1383:14
+     |
+1383 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1396:14
+     |
+1396 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1397:14
+     |
+1397 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1418:14
+     |
+1418 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1419:14
+     |
+1419 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1432:14
+     |
+1432 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Filestat)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1433:14
+     |
+1433 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1446:14
+     |
+1446 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1447:14
+     |
+1447 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1472:14
+     |
+1472 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1473:14
+     |
+1473 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1498:14
+     |
+1498 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1499:14
+     |
+1499 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1512:14
+     |
+1512 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Prestat)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1513:14
+     |
+1513 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1525:14
+     |
+1525 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1526:14
+     |
+1526 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1551:14
+     |
+1551 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1552:14
+     |
+1552 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1575:14
+     |
+1575 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1576:14
+     |
+1576 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1613:14
+     |
+1613 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1614:14
+     |
+1614 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1633:14
+     |
+1633 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1634:14
+     |
+1634 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1658:14
+     |
+1658 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Filesize)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1659:14
+     |
+1659 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1668:14
+     |
+1668 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1669:14
+     |
+1669 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1683:14
+     |
+1683 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Filesize)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1684:14
+     |
+1684 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1703:14
+     |
+1703 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1704:14
+     |
+1704 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1721:14
+     |
+1721 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1722:14
+     |
+1722 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1747:14
+     |
+1747 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Filestat)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1748:14
+     |
+1748 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1780:14
+     |
+1780 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1781:14
+     |
+1781 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1811:14
+     |
+1811 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1812:14
+     |
+1812 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1863:14
+     |
+1863 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Fd)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1864:14
+     |
+1864 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1895:14
+     |
+1895 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1896:14
+     |
+1896 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1914:14
+     |
+1914 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1915:14
+     |
+1915 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1937:14
+     |
+1937 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1938:14
+     |
+1938 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1958:14
+     |
+1958 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1959:14
+     |
+1959 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1977:14
+     |
+1977 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:1978:14
+     |
+1978 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2006:14
+     |
+2006 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2007:14
+     |
+2007 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2031:14
+     |
+2031 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2032:14
+     |
+2032 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2041:14
+     |
+2041 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2042:14
+     |
+2042 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2059:14
+     |
+2059 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2060:14
+     |
+2060 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2079:14
+     |
+2079 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Fd)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2080:14
+     |
+2080 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2112:14
+     |
+2112 |         0 => Ok((
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2116:14
+     |
+2116 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2146:14
+     |
+2146 |         0 => Ok(core::ptr::read(rp0.as_mut_ptr() as i32 as *const Size)),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2147:14
+     |
+2147 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Ok` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2160:14
+     |
+2160 |         0 => Ok(()),
+     |              ^^ not found in this scope
+
+error[E0425]: cannot find function, tuple struct or tuple variant `Err` in this scope
+    --> /home/tom/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-0.11.0+wasi-snapshot-preview1/src/lib_generated.rs:2161:14
+     |
+2161 |         _ => Err(Errno(ret as u16)),
+     |              ^^^ not found in this scope
+
+Some errors have detailed explanations: E0412, E0425, E0463.
+For more information about an error, try `rustc --explain E0412`.
+error: could not compile `wasi` due to 204 previous errors
+warning: build failed, waiting for other jobs to finish...

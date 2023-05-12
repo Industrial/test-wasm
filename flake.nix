@@ -41,15 +41,21 @@
           bashInteractive
         ];
         buildInputs = with pkgs; [
+          bundix
+          cargo
+          clang
+          cmake
           git
+          ninja
           nodejs-19_x
           nodejs-19_x.pkgs.eslint
           nodejs-19_x.pkgs.pnpm
           nodejs-19_x.pkgs.typescript
           openssl
           rubyPackages.rubocop
-          bundix
           wasmtime
+          wasmer
+          wapm-cli
         ] ++ [
           ruby
         ];
