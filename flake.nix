@@ -2,10 +2,8 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs";
     flake-utils.url = "github:numtide/flake-utils";
-    flake-compat = {
-      url = "github:edolstra/flake-compat";
-      flake = false;
-    };
+    flake-compat.url = "github:edolstra/flake-compat";
+    ghc-wasm-meta.url = "git+https://gitlab.haskell.org/ghc/ghc-wasm-meta.git";
   };
 
   outputs = {
@@ -13,6 +11,7 @@
     nixpkgs,
     flake-utils,
     flake-compat,
+    ghc-wasm-meta
   } @ inputs: let
     inherit (nixpkgs) lib;
     inherit (lib) recursiveUpdate;
@@ -22,29 +21,28 @@
       import nixpkgs {
         inherit system;
       });
-
-    haskellFlakeModule = import apps/web-haskell/flake.nix;
   in (eachDefaultSystem (
     system: let
       pkgs = nixpkgsFor.${system};
     in {
-      modules = [
-        haskellFlakeModule
-      ];
-
       devShell = pkgs.mkShell {
         nativeBuildInputs = with pkgs; [
           bashInteractive
         ];
         buildInputs = with pkgs; [
+          (inputs.ghc-wasm-meta.packages.x86_64-linux.all_gmp)
           git
           nodejs-19_x
           nodejs-19_x.pkgs.eslint
           nodejs-19_x.pkgs.pnpm
           nodejs-19_x.pkgs.typescript
+          wasmer
+          wasmtime
+          ihp-new
+          zlib.dev
+          zlib.out
         ];
       };
     }
   ));
 }
-

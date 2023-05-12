@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+wasmtime run build/Main.wasm
