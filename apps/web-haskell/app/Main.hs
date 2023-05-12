@@ -2,7 +2,6 @@
 module Main where
 
 import Web.Scotty
-import Data.Monoid (mconcat)
 
 
 main :: IO ()
