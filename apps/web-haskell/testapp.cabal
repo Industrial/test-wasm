@@ -68,8 +68,8 @@ executable testapp
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.16.4.0,
-                      scotty ^>=0.12.1
+    build-depends:    base >=4.16.4.0,
+                      bytestring
 
     -- Directories containing source files.
     hs-source-dirs:   app
